@@ -1,6 +1,7 @@
 import "./App.css";
 import logo1 from "../src/assets/TK_Table_Logo_2022.png";
 import logo2 from "../src/assets/TK_Logo_2022_DarkGreen.png";
+import { Link,  } from "react-router-dom";
 function App() {
   return (
     <>
@@ -28,11 +29,14 @@ function App() {
             <span class="toggler-icon bottom-bar"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item"></li>
-            </ul>
-            <form class="d-flex">
-              
+           
+            <form class="d-flex ">
+              <div className="cls_menuCont cls_menuCont1"> 
+              <a href="/" className="link_design cls_brandMenu cls_brandMenu_chisiamo">about</a>
+              </div>
+              <div className="cls_menuCont cls_menuCont1"> 
+              <a href="/" className="link_design cls_brandMenu cls_brandMenu_chisiamo">about</a>
+              </div>
             </form>
           </div>
         </div>

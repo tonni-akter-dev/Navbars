@@ -80,3 +80,22 @@
 .logo1_container:hover{
   background-color: #FF9FFC;
 }
+ .cls_menuCont {
+  display: inline-block;
+  width: auto;
+  box-sizing: border-box;
+  padding: 1.5vw !important;
+}
+ .cls_brandMenu {
+  color: #203d37 !important;
+  display: inline-block;
+  font-family: "Poppins" !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 1.48vw !important;
+  /* line-height: 1.31vw; */
+  text-align: center;
+}
+a {
+  text-decoration: none !important;
+}
